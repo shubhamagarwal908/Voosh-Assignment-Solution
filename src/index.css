@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+.container {
+  height: 100vh;
+  background: url("./assets/background-1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  margin: 0.4rem 1rem;
+}
+
+.nav-image {
+  width: 7%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  /* gap: 4; */
+  height: 100%;
+}
+
+.container__main-image {
+  display: inline-block;
+  align-self: flex-end;
+}
+
+.main-image {
+  width: 38rem;
+  float: right;
+  /* bottom: 0; */
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  margin-bottom: 10rem;
+  margin-top: 10%;
+  margin-left: 2rem;
+  margin-right: 4rem;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-bottom: 1rem;
+}
+
+.sub-heading {
+  font-size: 1.4rem;
+}
+
+.button-1 {
+  background-color: #2d66f5;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  float: left;
+  width: 20%;
+  margin-top: 4rem;
+}
+
+.container__book-demo {
+  height: 100vh;
+  background: url("./assets/background-2.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  background-color: #eff0f3;
+}
+
+input[type="submit"], input[type="button"] {
+  width: 100%;
+  background-color: #2d66f5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+  background-color: #2d66f5;
+}
+
+h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 4rem;
+}
+
+form {
+  background-color: white;
+  padding: 1rem;
+  width: 30%;
+  border-radius: 10px;
+}
